@@ -15,9 +15,7 @@ app.get('/audio', async (req, res) => {
 
     const stat = await getStat(filePath)
 
-    console.log(stat)
-
-    res.writeHead(200, {
+    res.writeHead(sucessCode, {
         'Content-Type': 'audio/ogg',
         'Content-Length': stat.size
     })
