@@ -12,13 +12,15 @@
     "url": "git+https://github.com/kaueludovico/Audio-Streaming.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kauê Ludovico",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kaueludovico/Audio-Streaming/issues"
   },
   "homepage": "https://github.com/kaueludovico/Audio-Streaming#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.15.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
   }
 }
