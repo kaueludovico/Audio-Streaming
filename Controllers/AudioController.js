@@ -6,7 +6,7 @@ module.exports = {
     async index(req, res){
         const highWaterMark = 2
         const sucessCode = 200
-        const filePath = './audio.ogg'
+        const filePath = './src/assets/audio/audio.ogg'
     
         const stat = await getStat(filePath)
     
